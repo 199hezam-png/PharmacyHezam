@@ -28,7 +28,13 @@
     </aside>
     <main class="main">
       <header class="topbar">
-        <button class="mobile-menu" id="mobileMenu" aria-label="القائمة">☰</button>
+        <button
+  class="mobile-menu"
+  id="mobileMenu"
+  aria-label="القائمة"
+  type="button"
+  onclick="document.getElementById('sidebar').classList.toggle('open')"
+>☰</button>
         <div><h1 id="pageTitle">لوحة التحكم</h1><p id="pageSubtitle">ملخص حالة قاعدة البيانات والمشتريات</p></div>
         <div class="top-actions"><span class="storage-state"><i></i> قاعدة البيانات محلية</span></div>
       </header>
